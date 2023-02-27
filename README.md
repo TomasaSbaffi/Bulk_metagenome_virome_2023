@@ -130,11 +130,3 @@ hmmsearch --cpu 40 -E 1.0e-05 -o ${phamb_path}/output2.txt --tblout ${phamb_path
 done
 ```
 
-The four outputs were stored in the annotation/ directory serving as the input for the PHAMB random forest model (run_RF.py) that was run on annotations and clusters (bins). I had to manually solve some headers-linked issue prior running the model on contigs, clusters and annotations.
-The RF outputted a prediction on viral bins to be further tested with CheckV (end_to_end pipeline). High quality and complete viral and proviral bins sequences were retrieved with seqtk subseq.
-
-
-Deeparg (predict pipeline: --model LS --type prot --arg-alignment-identity 50) was used to investigate ARGs present in viral bins.  /// not true, **i used ARGminer!**
-
-
-Viral taxonomy was inferred with the approach described by (), after obtaining predicted proteomes (prodigal -meta) with diamond (blastp --sensitive --id 60 -e 1e-10 -k 1 --outfmt 6) against on VOGDB and usearch (-ublast -evalue 1e-5 -trunclabels) against Demovir which uses the TrEMBL viral subset. For both methods we followed the guides given by the authors.
