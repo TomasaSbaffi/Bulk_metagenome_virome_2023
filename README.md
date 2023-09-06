@@ -3,7 +3,7 @@
 
 Bioinformatics workflow used in the article:
 
-> Sabbatino R, Sbaffi T, Corno G, Fontaneto D, Periyasamy S, Di Casare A. 2022.  Bacteriophages qualitatively enrich the antibiotic resistome of microbial communities in wastewater treatment plants. XXXX, submitted. doi: xxxx.
+> Sabatino R, Sbaffi T, Corno G, Fontaneto D, Periyasamy S, Di Cesare A. 2022.  Bacteriophages qualitatively enrich the antibiotic resistome of microbial communities in wastewater treatment plants. XXXX, submitted. doi: xxxx.
 
 For the biostatistics workflow of the same paper, [Click here](Intra_Extra_DNA_script_statistical_analysis.R)
 
