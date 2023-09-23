@@ -3,7 +3,7 @@
 
 Bioinformatics workflow used in the article:
 
-> Sabatino R, Sbaffi T, Corno G, Fontaneto D, Periyasamy S, Di Cesare A. 2022.  Bacteriophages limitedly contribute to the antimicrobial resistome of microbial communities in wastewater treatment plants. Microbiology Spectrum,e01101-23. doi: [[xxxx](https://doi.org/10.1128/spectrum.01101-23)]
+> Sabatino R, Sbaffi T, Corno G, Fontaneto D, Periyasamy S, Di Cesare A. 2022.  Bacteriophages limitedly contribute to the antimicrobial resistome of microbial communities in wastewater treatment plants. Microbiology Spectrum,e01101-23. [[doi](https://doi.org/10.1128/spectrum.01101-23)]
 
 
 For the biostatistics workflow of the same paper, [Click here](Intra_Extra_DNA_script_statistical_analysis.R)
